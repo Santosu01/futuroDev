@@ -1,0 +1,112 @@
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  background-color: #00464e;
+  height: 64px;
+  color: #f8d2ae;
+}
+
+.brand-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto 32px;
+  height: 100%;
+}
+
+.brand-text {
+  font-size: 32px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.img-content {
+  width: 100%;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+}
+
+.presentation-container {
+  width: 100%;
+  max-width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.presentation-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #00464e;
+}
+
+h1 {
+  align-self: center;
+  font-size: 80px;
+  max-width: 500px;
+  text-align: center;
+  margin: 0px;
+}
+
+.presentation-description {
+  font-size: 28px;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+button {
+  align-self: center;
+  max-width: 200px;
+  padding: 16px 20px;
+  background-color: #00464e;
+  color: #f8d2ae;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #00464e;
+  color: #f8d2ae;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-description {
+  text-align: center;
+}
