@@ -1,4 +1,4 @@
-const isOdd = (value) => {
+const oddCount = (value) => {
   let oddCount = 0;
   for (let i = 1; i <= value; i++) {
     if (i % 2 !== 0) {
@@ -9,4 +9,4 @@ const isOdd = (value) => {
   return oddCount;
 };
 
-console.log(isOdd(10));
+console.log(oddCount(10));

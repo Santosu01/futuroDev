@@ -1,4 +1,4 @@
-const isPrime = (value) => {
+const primeCount = (value) => {
   if (value <= 1) {
     return 0;
   }
@@ -13,4 +13,4 @@ const isPrime = (value) => {
   return count;
 };
 
-console.log(isPrime(10));
+console.log(primeCount(10));

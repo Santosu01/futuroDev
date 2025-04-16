@@ -1,4 +1,4 @@
-const isEven = (value) => {
+const evenCount = (value) => {
   let count = 0;
   let evenCount = 0;
 
@@ -13,4 +13,4 @@ const isEven = (value) => {
   return evenCount;
 };
 
-console.log(isEven(10));
+console.log(evenCount(10));
