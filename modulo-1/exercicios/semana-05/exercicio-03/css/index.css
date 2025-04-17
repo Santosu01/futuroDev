@@ -1,0 +1,148 @@
+#app-container {
+  background-image: linear-gradient(
+    to bottom,
+    #10575e,
+    #17666e,
+    #1e767e,
+    #25868f,
+    #2c96a0,
+    #2da0a7,
+    #2faaae,
+    #32b4b4,
+    #36bab0,
+    #3fbfaa,
+    #4dc4a2,
+    #5dc99a
+  );
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 64px 32px;
+}
+
+.box-container {
+  align-self: center;
+  width: 100%;
+  max-width: 500px;
+  height: 100%;
+  max-height: 600px;
+  box-shadow: 0px 10px 30px -4px rgba(0, 0, 0, 0.85);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 3fr;
+  border-radius: 8px;
+}
+.presentation-content {
+  padding: 60px 16px 16px 16px;
+}
+
+h1 {
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+h2 {
+  color: #10575e;
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 16px;
+}
+
+form {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 350px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.input-content {
+  background-color: #10575e;
+  border-radius: 8px;
+  padding: 6px 8px;
+  display: flex;
+  gap: 8px;
+  color: #fff;
+}
+
+.input-content label {
+  padding: 4px 2px;
+  width: 80px;
+}
+
+.input-content input {
+  background-color: #17666e;
+  width: 100%;
+  padding: 4px;
+}
+
+select {
+  width: 100%;
+  padding: 4px;
+  background-color: #17666e;
+}
+
+.checkbox-content {
+  display: flex;
+  gap: 8px;
+  color: #10575e;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 32px;
+  padding-bottom: 32px;
+}
+
+button {
+  align-self: center;
+  padding: 6px 20px;
+  background-color: #10575e;
+  color: #fff;
+  border-radius: 4px;
+  max-width: 100px;
+  width: 100%;
+}
+
+.error-container {
+  margin-top: 32px;
+  height: 50px;
+  position: relative;
+}
+
+.error-container p {
+  position: absolute;
+  color: crimson;
+}
