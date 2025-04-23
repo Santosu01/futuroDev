@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div id="app-container">
+      <main>
+        <div class="box-container">
+          <div class="presentation-content">
+            <h1>Bem vindo ao site</h1>
+          </div>
+
+          <div class="form-container">
+            <h2>Login</h2>
+            <div class="form-box">
+              <form>
+                <div class="input-container">
+                  <div class="input-content">
+                    <label for="user">Usuário</label>
+                    <input type="text" id="user" />
+                  </div>
+
+                  <div class="input-content">
+                    <label for="department">Setor</label>
+                    <select name="department" id="department">
+                      <option value="comercial">Comercial</option>
+                      <option value="rh">RH</option>
+                      <option value="ti">TI</option>
+                    </select>
+                  </div>
+
+                  <div class="input-content">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" />
+                  </div>
+
+                  <div class="checkbox-content">
+                    <input type="checkbox" id="remember" />
+                    <label for="remember" class="checkbox-label"
+                      >Lembrar me</label
+                    >
+                  </div>
+                </div>
+
+                <div class="error-container">
+                  <p id="feedback-error"></p>
+                </div>
+
+                <div class="button-container">
+                  <button>Entrar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="./script/index.js"></script>
+  </body>
+</html>
