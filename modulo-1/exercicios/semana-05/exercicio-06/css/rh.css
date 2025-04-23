@@ -1,0 +1,68 @@
+#app-container {
+  background-image: linear-gradient(
+    to right bottom,
+    #1e2b3f,
+    #115468,
+    #157f80,
+    #5ca982,
+    #b4cd7e
+  );
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  padding-top: 100px;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all;
+  transition-duration: 3ms;
+  transition-timing-function: ease-in-out;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 64px;
+  padding: 32px;
+}
+
+.button-container div {
+  align-self: center;
+}
+
+button {
+  padding: 8px 20px;
+  background-color: #b4cd7e;
+  border-radius: 4px;
+  color: #115468;
+  font-weight: bold;
+}
+
+.hide {
+  display: none;
+}
+
+table {
+  align-self: center;
+  width: 800px;
+  color: white;
+}
+
+td,
+th {
+  text-align: center;
+  padding: 6px;
+  border: 1px solid white;
+  align-items: center;
+}

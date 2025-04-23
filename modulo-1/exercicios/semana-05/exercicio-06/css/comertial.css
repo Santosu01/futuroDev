@@ -1,0 +1,59 @@
+#app-container {
+  background-image: linear-gradient(
+    to left bottom,
+    #051937,
+    #00344d,
+    #004f53,
+    #30684f,
+    #6d7c4d
+  );
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 64px;
+  padding: 64px 32px;
+}
+
+h2 {
+  text-align: center;
+  color: white;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+table {
+  align-self: center;
+  width: 800px;
+  color: white;
+}
+
+td,
+th {
+  text-align: center;
+  padding: 6px;
+  border: 1px solid white;
+  align-items: center;
+}
+
+td div {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+}
+
+img {
+  align-self: center;
+  width: 120px;
+  height: 90px;
+}
